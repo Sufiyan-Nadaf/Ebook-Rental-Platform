@@ -30,33 +30,33 @@ Screenshots of the application will be added here.
 ### 1. Homepage
 The main landing page of the platform.
 
-![Homepage](screenshots/3_Home_Page.png)
+![Homepage](Screenshots/3_Home_Page.png)
 
 ### 2. User Authentication
 
 | Sign Up | Login |
 |---|---|
-| ![Sign Up](screenshots/1_Sign_Up.png) | ![Login](screenshots/2_Login.png) |
+| ![Sign Up](Screenshots/1_Sign_Up.png) | ![Login](screenshots/2_Login.png) |
 
 ### 3. Browse Books
 Explore the available book catalogue.
 
-![Browse Books](screenshots/4_Browsing_Menu.png)
+![Browse Books](Screenshots/4_Browsing_Menu.png)
 
 ### 4. Book Rental
 The book rental interface.
 
-![Book Rental](screenshots/5_Renting_Demo.png)
+![Book Rental](Screenshots/5_Renting_Demo.png)
 
 ### 5. Digital Reading
 The browser-based book reading interface.
 
-![Digital Reading](screenshots/6_Viewing_Book.png)
+![Digital Reading](Screenshots/6_Viewing_Book.png)
 
 ### 6. User Dashboard
 The user's dashboard and rental-related information.
 
-![Dashboard](screenshots/7_Dashboard.png)
+![Dashboard](Screenshots/7_Dashboard.png)
 
 ## 🛠️ Tech Stack
 
