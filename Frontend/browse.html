@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Books - Stories</title>
+    <meta name="description" content="Browse and search thousands of eBooks available for rent.">
+    <meta property="og:title" content="Browse Books - Stories">
+    <meta name="twitter:title" content="Browse Books - Stories">
+
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://resource.trickle.so/vendor_lib/unpkg/lucide-static@0.516.0/font/lucide.css" rel="stylesheet">
+
+    <style type="text/tailwindcss">
+    @layer theme {
+        :root {
+            --primary-color: #A27B5C;
+            --navbar-color: #5D4037;
+            --card-color: #EBCB90;
+            --card-bg-color:#FAF9F6;
+            --secondary-color: #EBCB90;
+            --text-primary: #1F2937;
+            --text-secondary: #6B7280;
+            --bg-light: #A27B5C;
+        }
+    }
+    @layer components {
+        .btn-primary {
+            @apply px-6 py-3 bg-[var(--primary-color)] text-white rounded-lg font-medium hover:opacity-90 transition-all;
+        }
+        .book-card {
+            @apply bg-[var(--card-color)] rounded-xl shadow-sm hover:shadow-lg transition-all cursor-pointer overflow-hidden;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel" src="components/Header.js"></script>
+    <script type="text/babel" src="components/Footer.js"></script>
+    <script type="text/babel" src="components/BookCard.js"></script>
+    <script type="text/babel" src="utils/api.js"></script>
+    <script type="text/babel" src="browse-app.js"></script>
+</body>
+</html>
