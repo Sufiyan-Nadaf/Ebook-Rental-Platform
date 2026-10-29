@@ -36,7 +36,7 @@ The main landing page of the platform.
 
 | Sign Up | Login |
 |---|---|
-| ![Sign Up](Screenshots/1_Sign_Up.png) | ![Login](screenshots/2_Login.png) |
+| ![Sign Up](Screenshots/1_Sign_Up.png) | ![Login](Screenshots/2_Login.png) |
 
 ### 3. Browse Books
 Explore the available book catalogue.
